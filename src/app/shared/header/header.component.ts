@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InfopaginaService } from '../../services/infopagina.service';
 
 @Component({
   selector: 'app-header',
@@ -7,5 +8,10 @@ import { Component } from '@angular/core';
 })
 
 export class HeaderComponent {
+
+  constructor(public infopaginaService: InfopaginaService){
+
+  }
+
 
 }
